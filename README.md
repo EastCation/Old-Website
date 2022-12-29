@@ -27,4 +27,4 @@ input("\n按回车键结束程序")
 [2.极简！VcXsrv+WSL1使用xfce图形界面](/archive/2022-12-29-02.html "极简！VcXsrv+WSL1使用xfce图形界面")  
 ---
 ## 工具箱  
-[Minecraft 4K](/Other/MC4K.html"我的世界网页版！")
+[Minecraft 4K](/Other/MC4K.html "我的世界网页版！")
