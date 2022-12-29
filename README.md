@@ -24,6 +24,6 @@ input("\n按回车键结束程序")
 ## 没了，以下是我的博客（搬自b站）  
 ---
 [1.MC也能“云存档”？将你的游戏存档同步到Onedrive](/archive/2022-12-29-01.html "MC也能“云存档”？将你的游戏存档同步到Onedrive")  
-[2.极简！VcXsrv+WSL1使用xfce图形界面](/archive/2022-12-29-02.md "极简！VcXsrv+WSL1使用xfce图形界面")  
+[2.极简！VcXsrv+WSL1使用xfce图形界面](/archive/2022-12-29-02.html "极简！VcXsrv+WSL1使用xfce图形界面")  
 ---
 ## 工具箱  
