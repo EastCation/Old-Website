@@ -21,10 +21,18 @@ print("\n你一共答对了",n,"次")#屏幕显示答对的题数
 input("\n按回车键结束程序")
 
 ~~~  
+---
 ## 没了，以下是我的博客（搬自b站）  
 ---
+
 [1.MC也能“云存档”？将你的游戏存档同步到Onedrive](/archive/2022-12-29-01.html "MC也能“云存档”？将你的游戏存档同步到Onedrive")  
 [2.极简！VcXsrv+WSL1使用xfce图形界面](/archive/2022-12-29-02.html "极简！VcXsrv+WSL1使用xfce图形界面")  
+[3.时间炸弹的科普以及破解方法](/archive/2022-12-29-03.html "时间炸弹的科普以及破解方法")  
+
 ---
-## 工具箱  
-[Minecraft 4K](/Other/MC4K.html "我的世界网页版！")
+## 工具箱
+---
+
+[Minecraft 4K](/Other/MC4K.html)
+
+
