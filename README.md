@@ -42,7 +42,7 @@ input("\n按回车键结束程序")
 
 ---
 
-[Minecraft 4K](/Other/MC4K.html)
+[Minecraft 4K](/Other/MC4K.html)  
 [RSS](/rss/atom.xml)
 
 ---
