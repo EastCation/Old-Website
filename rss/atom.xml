@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>辉夜星瞳制作</title>
+    <description>Starmoe の Blog [TLSD]</description>
+    <link>https://eastcation.github.io/</link>
+    <atom:link href="https://eastcation.github.io/rss/atom.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 01 Jan 2023 22点39分 +0800</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2023 22点40分 +0800</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    <item>  
+      <title>1.MC也能“云存档”？将你的游戏存档同步到Onedrive</title>  
+      <description>没有预览</description>  
+      <author>辉夜星瞳</author>  
+      <pubDate>2022年12月29日</pubDate>  
+      <link>/archive/2022-12-29-01.html</link>  
+      <guid>/archive/2022-12-29-01.html</guid>  
+    </item> 
+    <item>  
+      <title>2.极简！VcXsrv+WSL1使用xfce图形界面</title>  
+      <description>没有预览</description>  
+      <author>辉夜星瞳</author>  
+      <pubDate>2022年12月29日</pubDate>
+      <category>uwp</category>  
+      <link>/archive/2022-12-29-02.html</link>  
+      <guid>/archive/2022-12-29-02.html</guid>  
+    </item> 
+    </channel>
+    </rss>
