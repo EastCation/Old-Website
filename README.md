@@ -34,7 +34,8 @@ input("\n按回车键结束程序")
 [2.极简！VcXsrv+WSL1使用xfce图形界面](/archive/2022-12-29-02.html "极简！VcXsrv+WSL1使用xfce图形界面")  
 [3.时间炸弹的科普以及破解方法](/archive/2022-12-29-03.html "时间炸弹的科普以及破解方法")  
 [4.在X64 Windows上运行Windows RT](/archive/2022-12-30-01.html "在X64 Windows上运行Windows RT")  
-[6.无需root在手机上运行Linux，UserLAnd使用入门](/archive/2022-12-30-03.html "无需root在手机上运行Linux，UserLAnd使用入门")
+[6.无需root在手机上运行Linux，UserLAnd使用入门](/archive/2022-12-30-03.html "无需root在手机上运行Linux，UserLAnd使用入门")  
+[7.UserLAnd进阶教程1：配置简易VNC图形界面](/archive/2022-12-31-01.html "UserLAnd进阶教程1：配置简易VNC图形界面")
 
 ---
 
