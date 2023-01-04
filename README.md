@@ -37,7 +37,8 @@ input("\n按回车键结束程序")
 [5.真的有“我的世界网页版！”Minecraft 4K介绍与游玩方法](/archive/2022-12-30-02.html "真的有“我的世界网页版！”Minecraft 4K介绍与游玩方法")  
 [6.无需root在手机上运行Linux，UserLAnd使用入门](/archive/2022-12-30-03.html "无需root在手机上运行Linux，UserLAnd使用入门")  
 [7.UserLAnd进阶教程1：配置简易VNC图形界面](/archive/2022-12-31-01.html "UserLAnd进阶教程1：配置简易VNC图形界面")  
-[8.跨年啦！](/archive/2023-01-01-01.html "跨年啦！")
+[8.跨年啦！](/archive/2023-01-01-01.html "跨年啦！")  
+[9.浅谈Windows的用户账户控制（UAC）](/archive/2023-01-04-01.html "浅谈Windows的用户账户控制（UAC）")
 
 ---
 
