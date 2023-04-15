@@ -53,7 +53,8 @@ input("\n按回车键结束程序")
 
 [玩 Minecraft 4K](/Other/MC4K.html)  
 [订阅RSS](/rss/atom.xml)  
-[资源下载（限免！）](https://static.ltlec.com/87ae02c3-1da6-41e6-b460-452977772866%20(1).mp4)
+[资源下载（限免！）](https://static.ltlec.com/87ae02c3-1da6-41e6-b460-452977772866%20(1).mp4)  
+[语文学习资料（真的！）](/archive/summary/2023-up-01.html)  
 ---
 
 ## 其他链接
