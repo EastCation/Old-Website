@@ -1,32 +1,12 @@
 # Starmoe の Blog [TLSD]
 
-*傻星瞳的新网站，扬帆起航。*
+*大道至简。技术、生活、社会、探索。*
 
-## 自己做的一段代码（Py）
-
-~~~ py
-import random
-import time
-import os
-print("你好，现在你有10秒的时间记忆下列物品及其编号")
-things=["草方块","土豆","原石","水晶","体力药水","扩充补给卡","家园补给卡","精准补给卡","黑曜石","基岩"]
-for i in range(10):
-    print(i,":",things[i])   #在屏幕上显示物品及其编号
-time.sleep(10)               #延时10秒
-os.system("cls")             #清屏
-n=0                          #记录答对的题数，初值为0
-t2=random.sample(things,5)   #随机抽出五个物品
-for i in t2:                 #出5题
-    ans=int(input(i + "的编号是："))#输入编号答题
-    if i==things[ans]:
-        n=n+1                #如果回答正确，答对的题数加1
-print("\n你一共答对了",n,"次")#屏幕显示答对的题数
-input("\n按回车键结束程序")
-~~~
+*提示：如果内容过于繁杂，可以在浏览器内按Ctrl+F以启用检索功能*
 
 ---
 
-## 没了，以下是我的博客  
+## 我的博客  
 
 ---
 
@@ -55,6 +35,8 @@ input("\n按回车键结束程序")
 [订阅RSS](/rss/atom.xml)  
 [资源下载（限免！）](https://static.ltlec.com/87ae02c3-1da6-41e6-b460-452977772866%20(1).mp4)  
 [语文学习资料（真的！）](/archive/summary/2023-up-1.html)  
+[暮光信息技术工作室魔改的镜像(原六芒星镜像组)](/imgs/index.html)
+
 ---
 
 ## 其他链接
