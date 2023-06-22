@@ -32,10 +32,16 @@
 ---
 
 [玩 Minecraft 4K](/Other/MC4K.html)  
+
 [订阅RSS](/rss/atom.xml)  
+
 [资源下载（限免！）](https://static.ltlec.com/87ae02c3-1da6-41e6-b460-452977772866%20(1).mp4)  
+
 [语文学习资料（真的！）](/archive/summary/2023-up-1.html)  
-[暮光信息技术工作室魔改的镜像(原六芒星镜像组)](/imgs/index.html)
+
+[暮光信息技术工作室魔改的镜像(原六芒星镜像组)](/imgs/index.html) 
+
+[ISO镜像仓库大全](https://starmoe-my.sharepoint.com/:f:/g/personal/starmoe_starmoe_onmicrosoft_com/EjGI6r-mJFBJm8lyWBzJ9ekBiYJ35tFW54hZ02iQKLjM-A?e=uATWgc) 
 
 ---
 
