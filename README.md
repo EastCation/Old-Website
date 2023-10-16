@@ -24,7 +24,7 @@
 [12.成长的样子](/archive/2023-02-18-01.html "成长的样子")  
 [13.回归校园，能量可满？](/archive/2023-02-19-01.html "回归校园，能量可满？")  
 [14.Minecraft基岩版编辑器已加入预览版，离正式更新指日可待](/archive/2023-03-18-01.html "Minecraft基岩版编辑器已加入预览版，离正式更新指日可待")  
-[15.Minecraft Live 2023大概预览](/archive/2023-10.16-01.html "Minecraft Live 2023大概预览")  
+[15.Minecraft Live 2023大概预览](/archive/2023-10-16-01.html "Minecraft Live 2023大概预览")  
 
 ---
 
