@@ -11,7 +11,7 @@ whiptail --title "Starmoe QEMU Script" --msgbox " Welcome to Starmoe KVM install
     done
 } | whiptail --gauge "Please wait while installing" 6 60 0
 
- sudo apt install wget qemu-system-x86-64 qemu-utils
+ sudo apt install wget qemu-system-x86-64 qemu-utils -qq -y
 
  if (whiptail --title "EFI Need" --yesno "Do you need EFI?" 10 60) then
     wget https://eastcation.github.io/OVMF.fd
@@ -58,4 +58,4 @@ fi
     done
 } | whiptail --gauge "Creating start script" 6 60 0
 
-whiptail --title "Starmoe QEMU Script" --msgbox " All done! You should type “sudo bash start.sh” to run VM. Choose Ok to continue." 10 60
+whiptail --title "Starmoe QEMU Script" --msgbox " All done! You should type “sudo bash start.sh” to run VM. Choose Ok to close." 10 60
