@@ -44,18 +44,17 @@ fi
     for ((i = 0 ; i <= 100 ; i+=20)); do
         sleep 1
         echo $i
-        wget https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win.iso
     done
 } | whiptail --gauge "Downloading virtio-win Driver" 6 60 0
 
+wget https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win.iso
 
 {
     for ((i = 0 ; i <= 100 ; i+=20)); do
         sleep 1
         echo $i
         qemu-img create hdd.vhd -f vpc 128G
-        echo "qemu-system-x86_64 -m 2G -M q35 -drive file=hdd.vhd,if=virtio -vga virtio -soundhw hda -device qemu-xhci -device usb-kbd -device usb-tablet -drive file=virtio-win.iso,media=cdrom,if=none,id=cdrom -device usb-storage,drive=cdrom -cdrom install.iso -pflash OVMF.fd -nic user,model=virtio --enable-kvm" >> start.sh
     done
 } | whiptail --gauge "Creating start script" 6 60 0
-
+echo "qemu-system-x86_64 -m 2G -M q35 -drive file=hdd.vhd,if=virtio -vga virtio -soundhw hda -device qemu-xhci -device usb-kbd -device usb-tablet -drive file=virtio-win.iso,media=cdrom,if=none,id=cdrom -device usb-storage,drive=cdrom -cdrom install.iso -pflash OVMF.fd -nic user,model=virtio --enable-kvm" >> start.sh
 whiptail --title "Starmoe QEMU Script" --msgbox " All done! You should type “sudo bash start.sh” to run VM. Choose Ok to close." 10 60
