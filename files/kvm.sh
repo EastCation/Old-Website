@@ -1,7 +1,6 @@
 #!/bin/bash
-sudo apt install whiptail -qq -y
 
-whiptail --title "Starmoe QEMU Script" --msgbox " Welcome to Starmoe KVM installer! Choose Ok to continue." 10 60
+dialog --title "Starmoe QEMU Script" --msgbox " Welcome to Starmoe KVM installer! Choose Ok to continue." 10 60
 
 {
     for ((i = 0 ; i <= 100 ; i+=20)); do
@@ -9,17 +8,17 @@ whiptail --title "Starmoe QEMU Script" --msgbox " Welcome to Starmoe KVM install
         echo $i
 
     done
-} | whiptail --gauge "Please wait while installing" 6 60 0
+} | dialog --gauge "Please wait while installing" 6 60 0
 
  sudo apt install wget qemu-system-x86-64 qemu-utils -qq -y
 
- if (whiptail --title "EFI Need" --yesno "Do you need EFI?" 10 60) then
+ if (dialog --title "EFI Need" --yesno "Do you need EFI?" 10 60) then
     wget https://eastcation.github.io/OVMF.fd
 else
     echo "You chose No. Exit status was $?."
 fi
 
-OPTION=$(whiptail --title "OS Choice" --menu "Choose your download system." 15 60 4 \
+OPTION=$(dialog --title "OS Choice" --menu "Choose your download system." 15 60 4 \
 "1" "Windows Server 2016" \
 "2" "Windows Server 2012 R2" \
 "3" "Ubuntu 20.04 LTS" \
@@ -45,7 +44,7 @@ fi
         sleep 1
         echo $i
     done
-} | whiptail --gauge "Downloading virtio-win Driver" 6 60 0
+} | dialog --gauge "Downloading virtio-win Driver" 6 60 0
 
 wget https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win.iso
 
@@ -55,6 +54,6 @@ wget https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-vir
         echo $i
         qemu-img create hdd.vhd -f vpc 128G
     done
-} | whiptail --gauge "Creating start script" 6 60 0
+} | dialog --gauge "Creating start script" 6 60 0
 echo "qemu-system-x86_64 -m 2G -M q35 -drive file=hdd.vhd,if=virtio -vga virtio -soundhw hda -device qemu-xhci -device usb-kbd -device usb-tablet -drive file=virtio-win.iso,media=cdrom,if=none,id=cdrom -device usb-storage,drive=cdrom -cdrom install.iso -pflash OVMF.fd -nic user,model=virtio --enable-kvm" >> start.sh
-whiptail --title "Starmoe QEMU Script" --msgbox " All done! You should type “sudo bash start.sh” to run VM. Choose Ok to close." 10 60
+dialog --title "Starmoe QEMU Script" --msgbox " All done! You should type “sudo bash start.sh” to run VM. Choose Ok to close." 10 60
