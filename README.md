@@ -49,3 +49,18 @@
 ## 其他链接
 
 ---
+
+
+<details>
+  <summary>CDKEY？</summary>
+恭喜你找到了“隐藏”文件，我现在就把我已知的所有CDKEY都放在这，但我不公布它们属于什么软件，有需要自取、破译。  
+
+S/N TCP8W-T8PQJ-WWRRH-QH76C-99FBW   
+
+S/N RDBC9-VTRC8-D7972-J97JY-PRVMG  
+
+S/N XM633-9YG7Y-47JM6-4QMF8-XPKYG
+
+S/N GWH28-DGCMP-P6RC4-6J4MT-3HFDY
+
+</details>
